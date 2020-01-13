@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "rqh656418510"
+  },
+  "bugs": {
+    "url": "https://github.com/rqh656418510/hexo-lazyload-image-better/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "uglify-js": "^3.0.27"
+  },
+  "description": "a hexo plugin which is used to have all images support lazyload, with the help of this functionality, it will improve lots of the loading proformance.",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "hexo-fs": "^2.0.0",
+    "jest": "^24.9.0"
+  },
+  "homepage": "https://github.com/rqh656418510/hexo-lazyload-image-better#readme",
+  "keywords": [
+    "hexo",
+    "plugin",
+    "image lazyload"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "hexo-lazyload-image-better",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rqh656418510/hexo-lazyload-image-better.git"
+  },
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "jest"
+  },
+  "version": "1.0.6"
+}
