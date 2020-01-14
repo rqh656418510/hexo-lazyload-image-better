@@ -11,7 +11,7 @@ A hexo plugin which is used to have all images support lazyload automatically. W
 ## Install
 
 ```bash
-$ npm install hexo-lazyload-image --save
+$ npm install hexo-lazyload-image-better --save
 ```
 
 ## Usage
