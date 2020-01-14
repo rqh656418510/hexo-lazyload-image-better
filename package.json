@@ -7,6 +7,8 @@
   },
   "bundleDependencies": false,
   "dependencies": {
+    "hashmap": "^2.4.0",
+    "image-size": "^0.8.3",
     "uglify-js": "^3.0.27"
   },
   "description": "a hexo plugin which is used to have all images support lazyload, with the help of this functionality, it will improve lots of the loading proformance.",
@@ -32,5 +34,5 @@
     "eslint": "eslint .",
     "test": "jest"
   },
-  "version": "1.0.9"
+  "version": "1.1.0"
 }
