@@ -4,8 +4,9 @@ A hexo plugin which is used to have all images support lazyload automatically. W
 
 ## Changed
 
-1. Fix bugs that sometime fail to load images.
-2. The detection is made by IntersectionObserver if supported else it falls back to getBoundingClientRect and event listeners for scroll and resize.
+1. Compatible for [hexo-blog-encrypt](https://github.com/MikeCoder/hexo-blog-encrypt).
+2. Fix bugs that sometime fail to load images.
+3. The detection is made by `IntersectionObserver` if supported else it falls back to `getBoundingClientRect` and event listeners for scroll and resize.
 
 ## Install
 
@@ -20,12 +21,18 @@ First add configuration in `_config.yml` from your hexo project.
 ```yaml
 lazyload:
   enable: true
-  onlypost: false
+  post:
+     only: true
+     excludeEncrypt: true
   loadingImg: # eg /images/loading.gif
 ```
-**onlypost**
+**post:only**
 - If true, only the images from post or page will support lazy-load.
 - If false, the whole images of your site will use lazy-load, including the images dist from your theme, but not including the background images from CSS style.
+
+**post:excludeEncrypt**
+
+- If true, exclude the images from encrypt post or page, always use with `post:only: true`
 
 **loadingImg**
 - If you keep the value nothing (by default), then it will use the default loading image.
