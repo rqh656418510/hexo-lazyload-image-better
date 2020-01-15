@@ -11,4 +11,5 @@ else {
     hexo.extend.filter.register('after_render:html', require('./lib/process').processSite);
 }
 
+hexo.extend.filter.register('after_render:html', require('./lib/addstyle').addStyle);
 hexo.extend.filter.register('after_render:html', require('./lib/addscripts').addScript);

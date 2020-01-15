@@ -38,7 +38,7 @@ lazyload:
 
 **imgContainer**
 
-- If true, put some extra effort into how the image is displayed until loaded. The image placeholder have the same size and ratio even when not loaded and independent of screen width. Also needed to add a containing div and set the width so the placeholder can’t become larger than it should.
+- If true, put some extra effort into how the image is displayed until loaded. The image placeholder have the same size and ratio even when not loaded and independent of screen width. Also will add a containing div and set the width so the placeholder can’t become larger than it should. You can custom containing div style from CSS class `img-lazyload-container`.
 
 **post:excludeEncrypt**
 
