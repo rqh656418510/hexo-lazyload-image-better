@@ -64,7 +64,7 @@ Enjoy it!
 ## Demo
 
 - [troyyang.com](http://troyyang.com)
-- [www.techgrow.cn](https://www.techgrow.cn)
+- [www.techgrow.cn](https://www.techgrow.cn/posts/9e38efb3.html)
 
 ![image](https://images.troyyang.com/2017-7-30-lazy-load.gif)
 
